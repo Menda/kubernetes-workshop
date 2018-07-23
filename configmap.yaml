@@ -3,8 +3,15 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: environment-variables
+  namespace: activityapifoo
 data:
   DATABASE_ENGINE: "postgresql"
   DATABASE_NAME: "activityapifoo"
   DATABASE_HOST: "localhost"
   DATABASE_PORT: "5432"
+  DEFAULT_FROM_EMAIL: "dev@example.com"
+  DEFAULT_OAUTH_DOMAINS: "toladata.com,humanitec.com"
+  DEFAULT_ORG: "TolaData"
+  DEFAULT_REPLY_TO: "noreply@example.com"
+  ELASTICSEARCH_URL: "http://elasticsearch_activity_api:9200/"
+  EMAIL_SUBJECT_PREFIX: "[Test]"
