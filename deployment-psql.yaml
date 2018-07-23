@@ -1,8 +1,8 @@
 ---
 apiVersion: v1
 data:
-  password: "YWN0aXZpdHlhcGlmb28K"
-  username: "YWN0aXZpdHlhcGlmb28K"
+  password: "YWN0aXZpdHlhcGlmb28="
+  username: "YWN0aXZpdHlhcGlmb28="
 kind: Secret
 metadata:
   name: cloudsql-db-credentials
@@ -27,7 +27,7 @@ metadata:
     app: "activityapifoo"
     tier: web
 spec:
-  replicas: 3
+  replicas: 1
   revisionHistoryLimit: 5
   template:
     metadata:
