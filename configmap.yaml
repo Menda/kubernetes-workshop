@@ -1,0 +1,10 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: environment-variables
+data:
+  DATABASE_ENGINE: "postgresql"
+  DATABASE_NAME: "activityapifoo"
+  DATABASE_HOST: "localhost"
+  DATABASE_PORT: "5432"

@@ -1,0 +1,102 @@
+---
+apiVersion: v1
+data:
+  password: "YWN0aXZpdHlhcGlmb28K"
+  username: "YWN0aXZpdHlhcGlmb28K"
+kind: Secret
+metadata:
+  name: cloudsql-db-credentials
+  namespace: "activityapifoo"
+type: Opaque
+---
+apiVersion: v1
+data:
+  credentials.json: "ewogICJ0eXBlIjogInNlcnZpY2VfYWNjb3VudCIsCiAgInByb2plY3RfaWQiOiAiazhzLXdvcmtzaG9wLTIxMTEwNyIsCiAgInByaXZhdGVfa2V5X2lkIjogIjNmZDcxYjAwMzIxMmQ4MTkzNTFlYWUxZmM0ZDcyYzg4YjRjOWRhZjMiLAogICJwcml2YXRlX2tleSI6ICItLS0tLUJFR0lOIFBSSVZBVEUgS0VZLS0tLS1cbk1JSUV2UUlCQURBTkJna3Foa2lHOXcwQkFRRUZBQVNDQktjd2dnU2pBZ0VBQW9JQkFRQ0gzREpURDlLSnNzeWlcblVCWC9PUXB4T3RqNlRRSEFiSTlqTUdiY2ZlOUcyZXpQWXRnUFF2ZXVNeGhXcW9JYXY5bk9hZ1dqOHZBZVlmdjlcblZYUFVvZjEzbmVXRGcvMzhGMmFWekFBT3ZVanhKbnJubU5CamM4UzhnSmt1UkNHUngxL21vV3JQT0FpUU5oVFBcbjJiM3BaWUgyWmM0dTJNNHVzcUN4VU1raXBoSE5iVUp2TDFrUWF4VExmdlB3UE1WNWQ2OGVLRitDUllBTmxybWpcblJ0dUhHUlh3MEpYaGZVa1NzU0hxM2tiWnlxbTlHZ2NWbE1uTTNQTlB3Y1M2emNMRC91aDF1L2ZnMzNEMTlCNFNcbjVrNDNjTVpBU3VEekhJL0J0T2htUThVY3Zaejl4ZnZxck5zZllFWDVXamtGUmQ4M3V4R3ZPOVhJRlNBNDRvS3dcblF0OThTN3BIQWdNQkFBRUNnZ0VBTDBCbzZsV3E4b1JTd3JNYTYzRGh6bDdhdnpkUVFDWWh1cXhIWWpHVXFtNDVcbi9Da1RIeis1MkFiaVZLWXA2UGJINEpBa1ZSQzE3Y05EZXFraFI1ZHRpaEJMRm5JdVFHSzlKYVZWY2Nyb2x5SzhcbmhWY3pSeHVwRmF5ZVdpYU5ER0FzM1JCUUR6RWNYVmZKNWo2RFhDMFhSZVREa0t5TURWYklKOU9DbVAvc1dpYy9cbnhVRXMrc0hwS1NZUiswaUlqU1VFKzV3cDJMTWxlSFdXaTZabkcxa2tVT0FadWNmb1QrL2hmbFdwczhZcXZzbEpcbjAzRS92UFZFUXovNTAzSGJCUVJQeGw4L3ZZZU5HQWwwaDBmeG5RTktqZHRZMFptK2l4c2NvbkZ1K005YnlMMjdcbldxL0x1K0Y4VFVONHN0b3ZRdjJSdjRJRUJPMm5yakdveEx6QU16RGdtUUtCZ1FDN09jMWMvdFk0Z2JOSVdpVDdcbnU1Vm5rODBVT3FhK3Mza3VKY0ptVVpUSldCMXBxL3NkNkUxaUtqNkVIbUdVNDJweEJlNUFYMmF6SnNNaHhkL29cbmg2ZFZKSVpiQVl2NTZOSXkxSHlSZU5jSktrUmpzTHdOQ2krUHppM2RIVWcxTlZVUTExdkNmKzN0NDZzSGExdk9cbmtUNFZZU0hFUE1yQVJRZlV6bmdRZUFaUytRS0JnUUM1eEJ4QXJtZXNJaTRuNDlvN053TXJOcmMzaG9iTmZIaWhcblpPdm4vV1dlZ0JabVhEb09vOUI2MFc0T1owb3F5b2pXUjJtM3E0YWZrMEcxZDM4SXJ4ODVrbG04cGV0emFzQU5cbjg0NlNTUUtjSUU4R1JTbGhXeWMxWGRoVTdXRFAwcDgvQmthTkNISUN2YmZNSGhBU0JNS0NsR2FvN2xrd0NUazRcbkNJNkdoOXlIUHdLQmdRQ2xhc0YrQzQzYnFRUnN4WEJ0bFdQQWVyNnp3OG8xTFQ3QXZnM085djlkRVdRVFRDYjNcbldwcWNRN1N1YUdWUTljakNpVG5pV0NmVjIwYUdYVnlpQnRDYUVrWSt1OVFmZmt2Ukt4blFNWkxUL3lzalpUQVFcbjJWSUNYV2o2Tm5mb3d2RWdpeFlBZDZVUkRKaThXbWRuejcycGlBTWNiWlc1WUlRMXlpSWNjdDhyaVFLQmdIYWZcbjd0SzNER2oxWXJnQ1hvZFZ0K1pPaUcwaXNNNWpYN3pnYjJ5emVjTGZWRzZGRW1YcTRlU3IvRFdpYTlBcmlYb2NcbkhEdzNnajVBa01OS3pZcEVHaEp2akhKVkdhZVlVWkFYS2NIc2NZZzFjWUUxaFJrd1ZqZFQrQ016ZXBEN2xNbHdcblBua3RIWEQycVhuazhLb3c4K3ppeXpPeEVLOEdGTTNkV1BZN3ArMk5Bb0dBT2tqZ3JjbmNFOG13ek4zd3RQNGJcbkZZM3dCWFEzZXNzQ2JtSVpEUTAySERkU0JTaWRobmpUTWFYbjVyMW9TMjVaRFI2VC96bFcwemNudGY0ZGlNZWJcbksweU9EY25FaWJ5RHMyQ3I1TE5iOWVpNUhVZW14NW90WVdrenlBR0JPek41VDNzZXNzNFlZTENvWHp6d1FSbWlcbmIrSnNKdmZKMmtkUGdRNUtQa1hyTkVNPVxuLS0tLS1FTkQgUFJJVkFURSBLRVktLS0tLVxuIiwKICAiY2xpZW50X2VtYWlsIjogImFjdGl2aXR5YXBpZm9vQGs4cy13b3Jrc2hvcC0yMTExMDcuaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLAogICJjbGllbnRfaWQiOiAiMTEzMjM1MzgxMjYyODc3MDA4NjUwIiwKICAiYXV0aF91cmkiOiAiaHR0cHM6Ly9hY2NvdW50cy5nb29nbGUuY29tL28vb2F1dGgyL2F1dGgiLAogICJ0b2tlbl91cmkiOiAiaHR0cHM6Ly9hY2NvdW50cy5nb29nbGUuY29tL28vb2F1dGgyL3Rva2VuIiwKICAiYXV0aF9wcm92aWRlcl94NTA5X2NlcnRfdXJsIjogImh0dHBzOi8vd3d3Lmdvb2dsZWFwaXMuY29tL29hdXRoMi92MS9jZXJ0cyIsCiAgImNsaWVudF94NTA5X2NlcnRfdXJsIjogImh0dHBzOi8vd3d3Lmdvb2dsZWFwaXMuY29tL3JvYm90L3YxL21ldGFkYXRhL3g1MDkvYWN0aXZpdHlhcGlmb28lNDBrOHMtd29ya3Nob3AtMjExMTA3LmlhbS5nc2VydmljZWFjY291bnQuY29tIgp9Cg=="
+kind: Secret
+metadata:
+  name: cloudsql-instance-credentials
+  namespace: "activityapifoo"
+type: Opaque
+---
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: "activityapifoo"
+  namespace: "activityapifoo"
+  labels:
+    app: "activityapifoo"
+    tier: web
+spec:
+  replicas: 3
+  revisionHistoryLimit: 5
+  template:
+    metadata:
+      name: "activityapifoo"
+      labels:
+        app: "activityapifoo"
+        tier: web
+    spec:
+      containers:
+        - name: "activityapifoo"
+          image: "eu.gcr.io/k8s-workshop-211107/activityapi:1c54953"
+          imagePullPolicy: Always
+          envFrom:
+          - configMapRef:
+              name: environment-variables
+          env:
+            - name: DATABASE_USER
+              valueFrom:
+                secretKeyRef:
+                  name: cloudsql-db-credentials
+                  key: username
+            - name: DATABASE_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: cloudsql-db-credentials
+                  key: password
+          ports:
+          - name: web
+            containerPort: 8080
+          livenessProbe:
+            httpGet:
+              path: /
+              port: 8080
+            initialDelaySeconds: 15
+            timeoutSeconds: 15
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 8080
+            initialDelaySeconds: 5
+            timeoutSeconds: 3
+        # Change <INSTANCE_CONNECTION_NAME> here to include your GCP
+        # project, the region of your Cloud SQL instance and the name
+        # of your Cloud SQL instance. The format is
+        # $PROJECT:$REGION:$INSTANCE
+        # [START proxy_container]
+        - name: cloudsql-proxy
+          image: gcr.io/cloudsql-docker/gce-proxy:1.11
+          command: ["/cloud_sql_proxy", "--dir=/cloudsql",
+                    "-instances=k8s-workshop-211107:europe-west1:activityapifoo=tcp:5432",
+                    "-credential_file=/secrets/cloudsql/credentials.json"]
+          volumeMounts:
+            - name: cloudsql-instance-credentials
+              mountPath: /secrets/cloudsql
+              readOnly: true
+            - name: ssl-certs
+              mountPath: /etc/ssl/certs
+            - name: cloudsql
+              mountPath: /cloudsql
+      # [END proxy_container]
+      # [START volumes]
+      volumes:
+        - name: cloudsql-instance-credentials
+          secret:
+            secretName: cloudsql-instance-credentials
+        - name: cloudsql
+          emptyDir:
+        - name: ssl-certs
+          hostPath:
+            path: /etc/ssl/certs
+# [END volumes]
+
